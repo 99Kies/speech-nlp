@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>分享</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <!-- <script>
+
+        var nan = function() {
+            document.getElementById("blink").innerHTML="南";
+        } 
+        var bei = function() {
+            document.getElementById("blink").innerHTML="北";
+            setTimeout(nan, 150)
+        }   
+        setInterval(bei, 2000);
+    </script> -->
+  </head>
+  <body>
+
+    <strong id="source">
+
+class: center, middle, title
+
+<h1>项目实战“经历”分享</h1>
+
+汤会枫（Huifeng / 99Kies）
+---
+
+class: center, middle, inverse
+
+
+## 我们如何利用NLP来保护用户的个人隐私
+
+---
+
+## 举个🌰
+--
+
+XXX学校的个人信息泄露问题。（身份证，家庭住址，电话号码，银行卡号，学号，等等）
+
+<img src="{{ url_for('static', filename='images/99kies/hack.png') }}" width="700px">
+
+
+
+---
+class: center, middle
+### 为了解决这个问题，我们设计了一整套 -- 从检测到保护的系统
+
+
+- 开会
+- 读论文
+- 抓数据
+- 分析数据
+- 。。。
+- 完成成品
+
+
+---
+
+class: center, middle
+### 功能模块图
+<img src="{{ url_for('static', filename='images/99kies/scanserver.png') }}" width="800px">
+
+
+---
+
+class: center, middle
+### 功能模块图
+<img src="{{ url_for('static', filename='images/99kies/apiserver.png') }}" width="800px">
+
+---
+class: center, middle, inverse
+## 题外话
+
+---
+
+## 汤会枫 / Huifeng
+
+<img src="{{ url_for('static', filename='images/99kies/99kies_.jpg') }}" width="200px">
+
+- OpenSource Developer
+- 分布式方向，云计算/区块链，Docker/Kubernetes/FISCO BCOS
+- 区块链技术布道者
+
+---
+class: center, middle
+### 什么是区块链
+
+--
+去中心化的分布式账本
+
+---
+
+class: center, middle, inverse
+## 什么是波卡
+<a target="_blank", href="https://mp.weixin.qq.com/s?t=pages/video_detail_new&scene=1&vid=wxv_1525414819410001921&__biz=MzA3MzQ5OTg0Ng==&mid=2247484050&idx=1&sn=015ca9a63eb9c1b07ceea6a4e59caa0c&vidsn=&key=e15af338f75799eeeddb40088d53d12cca4dd4ecb63b837d935cc536151490af1f14e806f1e0858fbd7b03d6a3853b948844587dbaae21f0f2998e1d847ee7a645c051b85d7cbe0884bab41346be834891379b2b7ac79ae2af6533b587604ba6d1ceefb0d2bb0f45d01363021d4565440ccd2f66f6a56c782692ac65a46584e6&ascene=1&uin=MTA3NjMzNjE2Nw%3D%3D&devicetype=Windows+10+x64&version=62090529&lang=zh_CN&exportkey=AUUqqhJOvCUNacye2qlFwYM%3D&pass_ticket=%2FQiUaBkQW7fu1tthsix7l36OJS9EVPHjg%2FNpi56A4HayGTkBm2FIjRdGLEm8A75h&wx_header=0"><img src="{{ url_for('static', filename='images/99kies/polk.png') }}" width="900px"></a>
+
+
+---
+
+## Links & Contact
+
+<img src="{{ url_for('static', filename='images/99kies/wechat.jpg') }}" width="200px">
+<img src="{{ url_for('static', filename='images/99kies/csdn.jpg') }}" width="250px">
+
+- Blog: https://blog.csdn.net/qq_19381989
+- GitHub: https://github.com/99kies
+- PPT Source: https://github.com/99kies/SUIBE-speech
+
+
+    <script src="{{ url_for('static', filename='js/remark.min.js') }}">
+    </script>
+    <script>
+      var slideshow = remark.create({
+        ratio: '16:9',
+        highlightStyle: 'github',
+        highlightLines: true,
+      });
+    </script>
+  </body>
+</html>
